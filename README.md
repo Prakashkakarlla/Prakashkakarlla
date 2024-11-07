@@ -7,7 +7,7 @@
 
 
 # 💫 About Me:
-Aspiring software developer eager to apply academic knowledge and practical skills gained from full-stack projects.<br>Seeking an opportunity to learn and grow in a supportive team environment while delivering value through innovative<br>solutions.
+I’m a software fresher and web developer, passionate about creating user-friendly and efficient applications. Currently seeking an opportunity to kickstart my career and make meaningful contributions to a dynamic team!
 
 
 ## 🌐 Socials:
