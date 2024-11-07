@@ -11,12 +11,12 @@ I’m a software fresher and web developer, passionate about creating user-frien
 
 👋 Hi there! I’m a software fresher and web developer with a strong foundation in front-end and back-end development. I’m passionate about creating user-friendly, efficient applications that solve real-world problems and enhance user experiences.
 
-👀 Areas of Interest: I'm enthusiastic about building responsive, scalable web applications and continuously exploring new tools and technologies in web development.
-🌱 Currently Learning: Deepening my backend skills with Spring Boot and strengthening my knowledge of best practices in Java, REST APIs, and database management.
-💻 Skills: Proficient in JavaScript, HTML, CSS, React, Node.js, and familiar with modern frameworks and libraries.
-💞️ Collaboration Goals: Excited to collaborate on web development projects, open-source contributions, and innovative applications that make a difference.
-🌐 Looking for Opportunities: Eager to kickstart my career and grow within a team that values collaboration, creativity, and innovation.
-📫 How to Reach Me: Feel free to connect with me via [your email] or on [LinkedIn profile link].
+- 👀 Areas of Interest: I'm enthusiastic about building responsive, scalable web applications and continuously exploring new tools and technologies in web development.
+- 🌱 Currently Learning: Deepening my backend skills with Spring Boot and strengthening my knowledge of best practices in Java, REST APIs, and database management.
+- 💻 Skills: Proficient in JavaScript, HTML, CSS, React, Node.js, and familiar with modern frameworks and libraries.
+- 💞️ Collaboration Goals: Excited to collaborate on web development projects, open-source contributions, and innovative applications that make a difference.
+- 🌐 Looking for Opportunities: Eager to kickstart my career and grow within a team that values collaboration, creativity, and innovation.
+- 📫 How to Reach Me: Feel free to connect with me via [your email] or on [LinkedIn profile link].
 I’m driven by a constant desire to learn, adapt, and contribute meaningfully to any project I’m part of. I look forward to opportunities where I can apply my skills and make a positive impact in a collaborative environment.
 
 
