@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Prakashkakarlla
+- 👋 Hi, I’m Prakash kakaralla
 - 👀 I’m interested in building impactful web applications and expanding my expertise in full-stack development.
 - 🌱 I’m currently learning Spring Boot to strengthen my backend skills.
 - 💞️ I’m looking to collaborate on web development projects and open-source contributions.
