@@ -7,9 +7,8 @@
 
 
 # 💫 About Me:
-I’m a software fresher and web developer, passionate about creating user-friendly and efficient applications. Currently seeking an opportunity to kickstart my career and make meaningful contributions to a dynamic team!
 
-👋 Hi there! I’m a software fresher and web developer with a strong foundation in front-end and back-end development. I’m passionate about creating user-friendly, efficient applications that solve real-world problems and enhance user experiences.
+👋 Hi, I’m Prakash Kakaralla! I’m a software fresher and web developer with a strong foundation in both front-end and back-end technologies, passionate about creating user-friendly, efficient applications that make a positive impact.
 
 - 👀 Areas of Interest: I'm enthusiastic about building responsive, scalable web applications and continuously exploring new tools and technologies in web development.
 - 🌱 Currently Learning: Deepening my backend skills with Spring Boot and strengthening my knowledge of best practices in Java, REST APIs, and database management.
