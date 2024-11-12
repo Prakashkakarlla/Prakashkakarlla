@@ -259,36 +259,68 @@ analysis for over 100 plants.</p>
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+<form action="" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" id="name" class="contact__input" required>
                         </div>
-
+            
                         <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
+                            <label for="email" class="contact__label">E-mail</label>
+                            <input type="email" id="email" class="contact__input" required>
                         </div>
                     </div>
-
+            
                     <div class="contact__content">
-                        <label for="" class="contact__label">Subject</label>
-                        <input type="text" class="contact__input">
+                        <label for="subject" class="contact__label">Subject</label>
+                        <input type="text" id="subject" class="contact__input" required>
                     </div>
-
+            
                     <div class="contact__content">
-                        <label for="" class="contact__label">Description</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="description" class="contact__label">Description</label>
+                        <textarea id="description" cols="0" rows="7" class="contact__input" required></textarea>
                     </div>
-
+            
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button type="button" class="button button--flex" id="sendButton">
                             Send message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
+            
+                <script>
+                    document.getElementById('sendButton').addEventListener('click', async (e) => {
+                        e.preventDefault();
+            
+                        // Get form values
+                        const name = document.getElementById('name').value;
+                        const email = document.getElementById('email').value;
+                        const subject = document.getElementById('subject').value;
+                        const description = document.getElementById('description').value;
+            
+                        // Send data to backend
+                        try {
+                            const response = await fetch('https://backend-psi-coral.vercel.app/send', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify({ name, email, subject, description }),
+                            });
+            
+                            const result = await response.json();
+                            if (response.ok) {
+                                alert(result.message); // Display success message
+                            } else {
+                                alert(result.error); // Display error message
+                            }
+                        } catch (error) {
+                            alert('There was an error sending your message.');
+                        }
+                    });
+                </script>
             </div>
 
         </section>
